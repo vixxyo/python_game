@@ -1,12 +1,12 @@
-##PROJECT TITLE
-#Rock, Paper, Scissors Game
+## PROJECT TITLE
+# Rock, Paper, Scissors Game
 This is a simple Python program that allows you to play the classic rock, paper, scissors game against a computer opponent.
 
 
 URL:   https://youtu.be/y2SiexTnBUM
 
-##DESCRIPTION
-##How to Play
+## DESCRIPTION
+### How to Play
 To play the game, simply run the project.py file using Python. The game will prompt you to enter your name, and then ask you to choose between rock, paper, or scissors. The computer will also make a choice, and the game will determine the winner based on the following rules:
 
 Rock beats scissors
@@ -16,7 +16,7 @@ If both players choose the same option, the game is a tie. The game continues fo
 
 
 
-##PROJECT DETAILS
+## PROJECT DETAILS
 The project.py file contains the following functions:
 
 main(): This is the main function of the program, which handles the overall flow of the game. It starts by displaying an introduction message and prompting the player to enter their name. Then it calls the game_start() function to start the game. After the game is over, it displays the final score using the
@@ -47,9 +47,9 @@ The program uses a simple logic to determine the winner in each round:
 6) Finally, the program uses a loop to allow the player to play multiple games if they want to. If the player chooses to play again, the game is restarted from the beginning. Otherwise, the program exits.
 
 
-#Testing
+# Testing
 The test_project.py file contains a set of unit tests for the project.py file. These tests can be run using the pytest library. Simply run the 'pytest -s' command in the terminal, followed by the name of the test file (e.g. pytest -s test_project.py). This will run the tests and display the test results in the console.
 
-##Notes
+## Notes
 The project.py file uses the random and time libraries from the Python standard library.
 The test_project.py file uses the unittest library from the Python standard library, as well as the mock library, which needs to be installed separately. To install the mock library, run pip install mock in the terminal.
